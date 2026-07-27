@@ -1,3 +1,7 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Limitar tamaño de imágenes SVG de moléculas
+.markdown-preview-view img[src$=".svg"] {
+  max-width: 200px;
+  height: auto;
+}
