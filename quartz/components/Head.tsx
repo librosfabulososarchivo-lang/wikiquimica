@@ -93,6 +93,29 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smiles-drawer/2.0.4/smiles-drawer.min.js" crossorigin="anonymous"></script>
+        <script>{`
+          document.addEventListener('DOMContentLoaded', function() {
+            if (typeof SmilesDrawer === 'undefined') return;
+            var options = { width: 300, height: 150, bondThickness: 1.2, compactDrawing: false };
+            var drawer = new SmilesDrawer.Drawer(options);
+            document.querySelectorAll('pre code.language-smiles').forEach(function(block) {
+              var smiles = block.textContent.trim();
+              if (!smiles) return;
+              var container = document.createElement('div');
+              container.className = 'smiles-container';
+              try {
+                SmilesDrawer.parse(smiles, function(tree) {
+                  drawer.draw(tree, smiles, container, 'light');
+                });
+              } catch(e) {
+                container.textContent = '[Estructura no disponible]';
+              }
+              block.parentElement.replaceWith(container);
+            });
+          });
+        `}</script>
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
