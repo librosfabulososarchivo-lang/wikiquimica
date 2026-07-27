@@ -99,7 +99,7 @@ export default (() => {
             if (typeof SmilesDrawer === 'undefined') return;
             var options = { width: 300, height: 150 };
             var drawer = new SmilesDrawer.SvgDrawer(options);
-            document.querySelectorAll('pre code.language-smiles').forEach(function(block) {
+            document.querySelectorAll('code[data-language="smiles"]').forEach(function(block) {
               var smiles = block.textContent.trim();
               if (!smiles) return;
               var pre = block.parentElement;
