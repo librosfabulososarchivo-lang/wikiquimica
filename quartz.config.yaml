@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: es-ES
-  baseUrl: librosfabulososarchivo-lang.github.io/wikikimica
+  baseUrl: librosfabulososarchivo-lang.github.io/wikiquimica
   ignorePatterns:
     - private
     - templates
