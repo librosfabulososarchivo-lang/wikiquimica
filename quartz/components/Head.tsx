@@ -93,31 +93,6 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
-        <script src={joinSegments(baseDir, "static/smiles-drawer.min.js")}></script>
-        <script>{`
-          document.addEventListener('DOMContentLoaded', function() {
-            if (typeof SmilesDrawer === 'undefined') return;
-            var options = { width: 300, height: 150 };
-            var drawer = new SmilesDrawer.SvgDrawer(options);
-            document.querySelectorAll('code[data-language="smiles"]').forEach(function(block) {
-              var smiles = block.textContent.trim();
-              if (!smiles) return;
-              var pre = block.parentElement;
-              var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-              svg.setAttribute('width', '300');
-              svg.setAttribute('height', '150');
-              try {
-                SmilesDrawer.parse(smiles, function(tree) {
-                  drawer.draw(tree, svg, 'light');
-                });
-                pre.parentElement.replaceChild(svg, pre);
-              } catch(e) {
-                pre.textContent = smiles + ' [No disponible]';
-              }
-            });
-          });
-        `}</script>
-
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
