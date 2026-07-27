@@ -13,7 +13,15 @@ Un grupo funcional es un átomo o conjunto de átomos que, unidos a un [[02-Quí
 
 ### Alcoholes (R-OH)
 
+![[assets/moleculas/etanol.svg]]
+
 **Etanol (CH₃CH₂OH)** — el alcohol de las bebidas. Terminación **-ol**.
+
+### Ácidos carboxílicos (R-COOH)
+
+![[assets/moleculas/acido-etanoico.svg]]
+
+**Ácido etanoico (CH₃COOH)** — el del vinagre. Terminación **-oico**.
 
 ### Aldehídos (R-CHO)
 
@@ -22,10 +30,6 @@ Un grupo funcional es un átomo o conjunto de átomos que, unidos a un [[02-Quí
 ### Cetonas (R-CO-R')
 
 **Propanona (CH₃COCH₃)** — acetona, disolvente de esmalte de uñas. Terminación **-ona**.
-
-### Ácidos carboxílicos (R-COOH)
-
-**Ácido etanoico (CH₃COOH)** — el del vinagre. Terminación **-oico**.
 
 ### Aminas (R-NH₂)
 

@@ -13,17 +13,25 @@ Los hidrocarburos son compuestos formados exclusivamente por carbono (C) e hidr�
 
 ### Alcanos — Enlace simple (C-C), fórmula CₙH₂ₙ₊₂
 
+![[assets/moleculas/metano.svg]]
+
 **Metano (CH₄)** — el más simple de todos. Un carbono unido a cuatro hidrógenos.
 
 ### Alquenos — Doble enlace (C=C), fórmula CₙH₂ₙ
+
+![[assets/moleculas/eteno.svg]]
 
 **Eteno (C₂H₄)** — dos carbonos con doble enlace. Usado en la maduración de frutas.
 
 ### Alquinos — Triple enlace (C≡C), fórmula CₙH₂ₙ₋₂
 
+![[assets/moleculas/etino.svg]]
+
 **Etino (C₂H₂)** — acetileno, usado en soldadura.
 
 ### Aromáticos — Anillo bencénico
+
+![[assets/moleculas/benceno.svg]]
 
 **Benceno (C₆H₆)** — seis carbonos en anillo hexagonal con enlaces alternos. Base de muchos compuestos industriales.
 
