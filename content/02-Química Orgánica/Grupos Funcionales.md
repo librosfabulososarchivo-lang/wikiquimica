@@ -13,43 +13,23 @@ Un grupo funcional es un átomo o conjunto de átomos que, unidos a un [[02-Quí
 
 ### Alcoholes (R-OH)
 
-```smiles
-CCO
-```
-
-Etanol — el alcohol de las bebidas. Terminación **-ol**.
+**Etanol (CH₃CH₂OH)** — el alcohol de las bebidas. Terminación **-ol**.
 
 ### Aldehídos (R-CHO)
 
-```smiles
-CC=O
-```
-
-Etanal. Terminación **-al**.
+**Etanal (CH₃CHO)** — terminación **-al**. Presente en la resaca del alcohol.
 
 ### Cetonas (R-CO-R')
 
-```smiles
-CC(=O)C
-```
-
-Propanona (acetona) — disolvente de esmalte de uñas. Terminación **-ona**.
+**Propanona (CH₃COCH₃)** — acetona, disolvente de esmalte de uñas. Terminación **-ona**.
 
 ### Ácidos carboxílicos (R-COOH)
 
-```smiles
-CC(=O)O
-```
-
-Ácido etanoico (acético) — el del vinagre. Terminación **-oico**.
+**Ácido etanoico (CH₃COOH)** — el del vinagre. Terminación **-oico**.
 
 ### Aminas (R-NH₂)
 
-```smiles
-CN
-```
-
-Metilamina. Terminación **-amina**.
+**Metilamina (CH₃NH₂)** — terminación **-amina**. Presente en la descomposición de materia orgánica.
 
 ---
 
