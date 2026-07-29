@@ -5,26 +5,37 @@ tags: [pruebas, mermaid, datos]
 
 # 📊 Gráficos y Datos
 
-Ejemplos de gráficos interactivos generados con **Mermaid**. Se ven tanto en Obsidian como en la web.
+Ejemplos de gráficos generados con **Mermaid**. Se ven tanto en Obsidian como en la web.
 
 ---
 
-## Puntos de fusión y ebullición de hidrocarburos
+## Puntos de ebullición de hidrocarburos
 
-Comparativa de los primeros cuatro [[02-Química Orgánica/Hidrocarburos|alcanos]]:
+A más carbonos, más temperatura necesitas para hervir el compuesto:
 
 ```mermaid
 xychart-beta
-    title "Puntos de fusión y ebullición (°C)"
-    x-axis ["Metano (CH₄)", "Etano (C₂H₆)", "Propano (C₃H₈)", "Butano (C₄H₁₀)"]
-    y-axis "Temperatura °C" -200 --> 50
-    bar [-183, -172, -188, -138]
-    bar [-161, -89, -42, -0.5]
+    title "Punto de ebullición de alcanos (°C)"
+    x-axis ["Metano\nCH₄", "Etano\nC₂H₆", "Propano\nC₃H₈", "Butano\nC₄H₁₀", "Pentano\nC₅H₁₂"]
+    y-axis "°C" -200 --> 50
+    bar [-161, -89, -42, -0.5, 36]
 ```
 
-🔵 Azul = punto de fusión | 🟠 Naranja = punto de ebullición
+---
 
-A más carbonos, más sube el punto de ebullición. El punto de fusión no sigue un patrón tan lineal.
+## Puntos de fusión de hidrocarburos
+
+El punto de fusión también sube con el tamaño, pero con altibajos:
+
+```mermaid
+xychart-beta
+    title "Punto de fusión de alcanos (°C)"
+    x-axis ["Metano\nCH₄", "Etano\nC₂H₆", "Propano\nC₃H₈", "Butano\nC₄H₁₀", "Pentano\nC₅H₁₂"]
+    y-axis "°C" -200 --> 0
+    bar [-183, -172, -188, -138, -130]
+```
+
+El propano (C₃H₈) rompe la tendencia: funde a -188 °C, más bajo que el etano. Los alcanos con número impar de carbonos se empaquetan peor en estado sólido.
 
 ---
 
