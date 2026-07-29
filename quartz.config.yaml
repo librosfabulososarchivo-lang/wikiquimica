@@ -202,7 +202,10 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links: {}
+      links:
+        Quartz v5: https://quartz.jzhao.xyz
+        Gráficos: "Mermaid"
+        Moléculas: "SVG vectorial"
     layout:
       position: footer
       priority: 50
